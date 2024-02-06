@@ -1,1 +1,1 @@
-# Biblioteka-filtr-w-i-por-wnanie-czasu-obliczeniowego-CPU-a-GPU
+# Biblioteka filtrów i porównanie czasu obliczeniowego CPU a GPU

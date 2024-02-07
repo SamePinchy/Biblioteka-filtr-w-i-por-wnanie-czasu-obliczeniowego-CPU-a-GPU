@@ -1,7 +1,7 @@
 # Biblioteka filtrów i porównanie czasu obliczeniowego CPU a GPU
 
 ## Opis Projektu
-Program oparty na CUDA wykorzystujący akcelerację GPU do nakładania różnorodnych filtrów na obrazy. Program zapewnia opcje wyświetlania przefiltrowanych obrazów za pomocą biblioteki OpenCV oraz umożliwia porównywanie czasu obliczeniowego między CPU a GPU dla każdego filtra.
+Program oparty na CUDA wykorzystujący akcelerację GPU do nakładania różnorodnych filtrów na obrazy. Program zapewnia opcje wyświetlania przefiltrowanych obrazów za pomocą biblioteki OpenCV oraz umożliwia porównywanie czasu obliczeniowego między CPU a GPU (za pomocą biblioteki chrono dla CPU oraz cudaEvent dla GPU) dla każdego filtra.
 Zaprojektowane filtry:
 - Filtr Sobela: Wykrywa krawędzie na obrazach za pomocą operatora Sobela.
 - Filtr Laplace'a: Wzmacnia krawędzie i detale na obrazach za pomocą operatora Laplace'a.
